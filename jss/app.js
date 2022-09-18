@@ -25,8 +25,8 @@ const myRender = (data) =>{
     let myRoot = document.getElementById('root')  
     
     myRoot.innerHTML += `
-    <div style="width:70vw"> 
-    <h3 id="id-${item.id}">Id: ${item.id} </h3> 
+    <div id="id-${item.id}" style="width:70vw"> 
+    <h3>Id: ${item.id} </h3> 
     <h3>Title: ${item.title}</h3>
     <p> body: ${item.body}</P>
     </div>
